@@ -2,6 +2,8 @@ spring:
   config:
     import: configtree:/workspace/secrets/*/
 
+  redis:
+    host: redis
   security:
     oauth2:
       client:
