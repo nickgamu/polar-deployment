@@ -14,7 +14,7 @@ configMapGenerator:
 images:
 - name: catalog-service
   newName: ghcr.io/nickgamu/catalog-service
-  newTag: adfc34686ecd8c8a21718a641f9d3986a1c3a1a5
+  newTag: 0f593c1026b3e9453b0c592487492e4b2115edae
 
 replicas:
 - count: 2
