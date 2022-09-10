@@ -3,3 +3,13 @@ polar:
 spring:
   config:
     import: configtree:/workspace/secrets/*/
+
+  datasource:
+    url: jdbc:postgresql://postgres/polar_catalog
+  flyway:
+    url: jdbc:postgresql://postgres/polar_order
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://keycloak/realms/PolarBookshop

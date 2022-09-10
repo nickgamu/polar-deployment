@@ -1,3 +1,10 @@
 spring:
   config:
     import: configtree:/workspace/secrets/*/
+
+  security:
+    oauth2:
+      client:
+        provider:
+          keycloak:
+            issuer-uri: http://173.212.250.254:32136/realms/PolarBookshop
