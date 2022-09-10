@@ -18,7 +18,7 @@ configMapGenerator:
 images:
 - name: order-service
   newName: ghcr.io/nickgamu/order-service
-  newTag: 3fee86c6b0136fcb172947c8394594361eb3082c
+  newTag: ac1ee40f5a4afe5bfc605e136140ce0e2487ffb8
 
 replicas:
 - count: 1

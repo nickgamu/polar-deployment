@@ -19,7 +19,7 @@ configMapGenerator:
 images:
 - name: edge-service
   newName: ghcr.io/nickgamu/edge-service
-  newTag: edd653a902970e2298f2c6a1cc748d8ff67857d2
+  newTag: 2e2388cd78c6ece0d82b49325f66f2e988cacfc3
 
 replicas:
 - count: 1
